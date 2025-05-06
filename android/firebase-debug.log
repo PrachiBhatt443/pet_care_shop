@@ -1,0 +1,53 @@
+[debug] [2025-05-05T18:53:43.364Z] ----------------------------------------------------------------------
+[debug] [2025-05-05T18:53:43.366Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ayush\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login --no-localhost
+[debug] [2025-05-05T18:53:43.367Z] CLI Version:   14.2.2
+[debug] [2025-05-05T18:53:43.367Z] Platform:      win32
+[debug] [2025-05-05T18:53:43.367Z] Node Version:  v23.3.0
+[debug] [2025-05-05T18:53:43.367Z] Time:          Tue May 06 2025 00:23:43 GMT+0530 (India Standard Time)
+[debug] [2025-05-05T18:53:43.367Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-05T18:53:43.499Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[debug] [2025-05-05T18:53:48.468Z] >>> [apiv2][query] POST https://auth.firebase.tools/attest [none]
+[debug] [2025-05-05T18:53:48.468Z] >>> [apiv2][body] POST https://auth.firebase.tools/attest {"session_id":"1f20ea17-3f90-4469-b514-6a4fd4c65cae"}
+[debug] [2025-05-05T18:54:09.555Z] *** [apiv2] error from fetch(https://auth.firebase.tools/attest, {"headers":{},"method":"POST","body":"{\"session_id\":\"1f20ea17-3f90-4469-b514-6a4fd4c65cae\"}"}): FetchError: request to https://auth.firebase.tools/attest failed, reason: connect ETIMEDOUT 2001:4860:4802:38::15:443
+[debug] [2025-05-05T18:54:14.563Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\ayush\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:269:49)
+    at listOnTimeout (node:internal/timers:614:17)
+    at process.processTimers (node:internal/timers:549:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-05-05T18:55:33.476Z] ----------------------------------------------------------------------
+[debug] [2025-05-05T18:55:33.478Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ayush\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only functions
+[debug] [2025-05-05T18:55:33.478Z] CLI Version:   14.2.2
+[debug] [2025-05-05T18:55:33.478Z] Platform:      win32
+[debug] [2025-05-05T18:55:33.478Z] Node Version:  v23.3.0
+[debug] [2025-05-05T18:55:33.478Z] Time:          Tue May 06 2025 00:25:33 GMT+0530 (India Standard Time)
+[debug] [2025-05-05T18:55:33.479Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-05T18:55:33.597Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[debug] [2025-05-05T18:55:33.601Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-05T18:55:38.657Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\ayush\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:269:49)
+    at listOnTimeout (node:internal/timers:614:17)
+    at process.processTimers (node:internal/timers:549:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-05-05T19:24:02.242Z] ----------------------------------------------------------------------
+[debug] [2025-05-05T19:24:02.245Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ayush\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-05-05T19:24:02.245Z] CLI Version:   14.2.2
+[debug] [2025-05-05T19:24:02.245Z] Platform:      win32
+[debug] [2025-05-05T19:24:02.246Z] Node Version:  v23.3.0
+[debug] [2025-05-05T19:24:02.246Z] Time:          Tue May 06 2025 00:54:02 GMT+0530 (India Standard Time)
+[debug] [2025-05-05T19:24:02.246Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-05T19:24:02.380Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[debug] [2025-05-05T19:24:02.384Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-05T19:24:07.544Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\ayush\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:269:49)
+    at listOnTimeout (node:internal/timers:614:17)
+    at process.processTimers (node:internal/timers:549:7)
+[error] 
+[error] Error: An unexpected error has occurred.
