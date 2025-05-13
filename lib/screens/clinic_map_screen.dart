@@ -99,7 +99,7 @@ class _ClinicMapScreenState extends State<ClinicMapScreen> {
 
     try {
       final result = await polylinePoints.getRouteBetweenCoordinates(
-        'AIzaSyDNQp8p0gdVEUriv3R8RyLHSIJpmy7IyRw', // Replace with your actual Google API key
+        'YOUR_API', // Replace with your actual Google API key
         PointLatLng(widget.userLat, widget.userLng),
         PointLatLng(widget.clinic.latitude, widget.clinic.longitude),
         travelMode: TravelMode.driving,
