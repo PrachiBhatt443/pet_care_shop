@@ -1,0 +1,38 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "petcareapp-8e073",
+          "appId": "1:779761398451:android:4ce03d2b854cd9965ef6c6",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "petcareapp-8e073",
+          "configurations": {
+            "android": "1:779761398451:android:4ce03d2b854cd9965ef6c6",
+            "ios": "1:779761398451:ios:071b8c8786b96f655ef6c6",
+            "macos": "1:779761398451:ios:071b8c8786b96f655ef6c6",
+            "web": "1:779761398451:web:05ec4cd0f6d707995ef6c6",
+            "windows": "1:779761398451:web:8c94c8bce7466b6a5ef6c6"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}

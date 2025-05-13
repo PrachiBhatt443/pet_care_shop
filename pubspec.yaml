@@ -1,0 +1,83 @@
+name: pet_care_shop
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.13.0
+  firebase_auth: ^5.5.3
+  cloud_firestore: ^5.6.7
+  flutter_image_slideshow: ^0.1.6
+  cupertino_icons: ^1.0.8
+  flutter_rating_bar: ^4.0.0
+  provider: ^6.1.1
+  google_maps_flutter: ^2.5.0
+  geolocator: ^11.0.0
+  geocoding: ^2.1.0
+  permission_handler: ^11.0.0
+  http: 0.13.6
+  flutter_stripe: ^9.4.0
+  cloud_functions: 5.5.0
+  flutter_polyline_points: ^1.0.0
+  url_launcher: ^6.1.0
+  location: ^5.0.3
+  flutter_dotenv: 5.2.1
+
+
+#  AIzaSyA3WoGfrYZiwAsm87DkQP8OmS27BZsUp9A
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/dog_cat.png
+    - assets/images/offer1.png
+    - assets/images/grooming.png
+    - assets/images/cat.png
+    - assets/images/dog-toy.png
+    - assets/images/clothes.png
+    - assets/images/leash.png
+    - assets/images/pet-food.png
+    - assets/images/pet-bed.png
+    - assets/images/veterinary.png
+    - assets/images/medicine.png
+    - assets/images/products/cat.png
+    - assets/images/products/pet-food.png
+    - assets/images/products/shampoo.png
+    - assets/images/products/shampoo2.jpg
+    - assets/images/products/veterinary.jpg
+    - assets/images/products/veterinary2.jpg
+    - assets/images/products/leash.webp
+    - assets/images/products/leash2.jpg
+    - assets/images/products/pet-bed.jpg
+    - assets/images/products/pet-bed2.jpg
+    - assets/images/products/clothes.webp
+    - assets/images/products/clothes2.webp
+    - assets/images/products/cat-toy.webp
+    - assets/images/products/dog_food.png
+    - assets/images/products/medicine.webp
+    - assets/images/products/medicine2.webp
+    - assets/images/products/dog-toy.jpg
+    - assets/images/products/cat_food.png
+
+dependency_overrides:
+  async: ^2.13.0
+  fake_async: ^1.3.3
+  leak_tracker: ^11.0.1
+  leak_tracker_flutter_testing: ^3.0.10
+  leak_tracker_testing: ^3.0.2
+  lints: ^6.0.0
+  material_color_utilities: ^0.12.0
+  vector_math: ^2.1.5
+  vm_service: ^15.0.0
