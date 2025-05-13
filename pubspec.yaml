@@ -30,8 +30,6 @@ dependencies:
   flutter_dotenv: 5.2.1
 
 
-#  AIzaSyA3WoGfrYZiwAsm87DkQP8OmS27BZsUp9A
-
 
 dev_dependencies:
   flutter_test:
