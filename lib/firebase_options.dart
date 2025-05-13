@@ -41,7 +41,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyC2yWKNPuGvmtDYvMuaO3e5Q0csuAx6GFY',
+    apiKey: 'YOUR_API',
     appId: '1:779761398451:web:05ec4cd0f6d707995ef6c6',
     messagingSenderId: '779761398451',
     projectId: 'petcareapp-8e073',
@@ -51,7 +51,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDO1aJPBDfDe0HcPdQwu8ARwphy6nmdyYA',
+    apiKey: 'YOUR_API',
     appId: '1:779761398451:android:4ce03d2b854cd9965ef6c6',
     messagingSenderId: '779761398451',
     projectId: 'petcareapp-8e073',
@@ -59,7 +59,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCCnxrSdNJdjk8j4610-gkT1bZC0pglnWs',
+    apiKey: 'YOUR_API',
     appId: '1:779761398451:ios:071b8c8786b96f655ef6c6',
     messagingSenderId: '779761398451',
     projectId: 'petcareapp-8e073',
@@ -68,7 +68,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyCCnxrSdNJdjk8j4610-gkT1bZC0pglnWs',
+    apiKey: 'YOUR_API',
     appId: '1:779761398451:ios:071b8c8786b96f655ef6c6',
     messagingSenderId: '779761398451',
     projectId: 'petcareapp-8e073',
@@ -77,7 +77,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyC2yWKNPuGvmtDYvMuaO3e5Q0csuAx6GFY',
+    apiKey: 'YOUR_API',
     appId: '1:779761398451:web:8c94c8bce7466b6a5ef6c6',
     messagingSenderId: '779761398451',
     projectId: 'petcareapp-8e073',
